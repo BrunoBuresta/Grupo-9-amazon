@@ -14,8 +14,8 @@ VALUES (1, 'Adam','Sandler'), (2, 'Leonardo', 'Di Caprio'), (3, 'Kate', 'Winslet
 (16, 'Silvester', 'Stallone'), (17, 'Daniel', 'Craig'), (18, 'Vera', 'Farmiga'), (19, 'Juan Cruz', 'Romero'), (20, 'Buzz', 'Lightyear');
 
 --- usuarios ---
-INSERT INTO usuarios (id, nombre, apellido, contraseña, email, imagenUsuario, idCategoria)
-VALUES(1, 'Bruno', 'Buresta', '4451', 'brunoburesta07@gmail.com', 'default.png', 1), (2, 'Mateo', 'Boiero', '4451', 'mateoboiero@gmail.com', 'default.png', 2);
+-- INSERT INTO usuarios (id, nombre, apellido, contraseña, email, imagenUsuario, idCategoria)
+-- VALUES(1, 'Bruno', 'Buresta', '4451', 'brunoburesta07@gmail.com', 'default.png', 1), (2, 'Mateo', 'Boiero', '4451', 'mateoboiero@gmail.com', 'default.png', 2); --
 
 --- peliculas ---
 INSERT INTO peliculas (id, nombre, imagen, descripcion, precio, rating, idGenero, idActor)
